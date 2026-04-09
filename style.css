@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url(https://db.onlinewebfonts.com/c/5ebc09361aef4dbfa14ad8492b8cca11?family=SangBleu+Sunrise);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "SangBleu Sunrise";
+  font-size: 16px;
+}
+.custom_contener {
+  max-width: 1500px !important;
+}
+a {
+  text-decoration: none;
+} /* Navbar */
+img {
+  width: 100%;
+}
+.navbar {
+  padding: 20px 0 !important;
+}
+.hero_area {
+  padding: 0 80px !important;
+}
+.navbar-brand {
+  position: absolute;
+  max-width: 224px;
+  min-height: 224px;
+  top: -5px;
+}
+
+.nav-link {
+  color: #000000 !important;
+  margin-left: 25px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px !important;
+}
+.nav-link:hover{
+  color: #7f2299;
+}
+.btn_contact {
+  background-color: #eae4ea;
+  color: #000000;
+  padding: 9px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+.btn_contact:hover {
+  background-color: #a06ab4;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+}
+.banner {
+  padding: 70px 0 0 0;
+  background: url(img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  min-height: 888px;
+}
+.banner h1 {
+  font-family: "SangBleu Sunrise";
+  font-size: 54px;
+  line-height: 64px;
+}
+
+.banner p {
+  font-family: "DM Sans", sans-serif;
+  max-width: 817px;
+  margin: 0 auto 25px auto;
+  color: #717175;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.banner .btn-primary {
+  background-color: #aa6aaa;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+.hero .btn-primary:hover {
+  background-color: #81339e;
+}
+.gif {
+  max-width: 1140px;
+  border: 1px solid white;
+  border-radius: 20px 20px 0 0;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+  border-bottom: none;
+}
+.gif_banner {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+/*==========================================*/
+/*===================about us=================*/
+/*===========================================*/
+.about_us {
+  padding: 80px 0 50px;
+}
+
+/* Heading */
+.main-heading {
+  font-family: "SangBleu Sunrise";
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 58px;
+  color: #000000;
+}
+
+/* Paragraph */
+.content-text {
+  color: #717175;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+/* Images */
+.rounded-img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Button */
+.btn-custom {
+  background-color: #aa6aaa;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 40px;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  background-color: #7f2299;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .main-heading {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .section-padding {
+    padding: 60px 0;
+  }
+}
+/*=============cird==================*/
+.cird {
+  background-image: linear-gradient(
+    to bottom,
+    #cfc6d3 0%,
+    #cfc6d3 37%,
+    #cfc6d3 59%,
+    #cfc6d3 100%
+  );
+  padding: 100px 0;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.section-title h1 {
+  font-size: 50px;
+  line-height: 54px;
+  font-family: "SangBleu Sunrise";
+}
+
+.card-custom {
+  border-radius: 10px !important;
+  overflow: hidden;
+  border: none;
+  transition: 0.3s ease;
+  max-width: 360px;
+  min-height: 356px;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  min-height: 356px;
+}
+
+.card-body {
+  padding: 60px 30px 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cird_body_1 {
+  background: #eae4ea;
+}
+.cird_body_2 {
+  background: #aa6aaa;
+  color: white !important;
+}
+.cird_body_2 > .contact-link {
+  color: white;
+}
+.card-body > h4 {
+  font-size: 28px;
+  font-family: "SangBleu Sunrise";
+}
+.card-body > p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "DM Sans", sans-serif;
+}
+.contact-link {
+  margin-top: 40px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.contact-link:hover {
+  color: #7f2299;
+}
+.contact-link span {
+  margin-left: 5px;
+}
+/*===============================*/
+/*===============testimonial==============*/
+/*===============================*/
+.testimonial_contend {
+  max-width: 1107px;
+}
+.testimonial-section {
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+
+.badge-custom {
+  background: #fff;
+  color: #000;
+  padding: 8px 30px;
+  border-radius: 50px;
+  font-size: 14px;
+  border: 1px solid #efeeed;
+}
+
+.section-title {
+  font-size: 48px;
+  margin: 30px 0 60px;
+  font-weight: 500;
+}
+.testimonial_title {
+  font-size: 50px;
+  font-family: "SangBleu Sunrise";
+  line-height: 54px;
+}
+.testimonial-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.testimonial-images img {
+      width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.testimonial-images img.active {
+  width: 130px;
+  height: 130px;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.testimonial-text {
+     max-width: 786px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 27px;
+    color: #717175;
+      font-family: "DM Sans", sans-serif;
+}
+
+.testimonial-name {
+  margin-top: 25px;
+   font-family: "SangBleu Sunrise";
+  color: #AA6AAA;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.testimonial-role {
+     font-size: 12px;
+    color: #666666;
+    padding-top: 6px;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 125px;
+  background: #ffffff;
+  color: #c4c4c4;
+  box-shadow: 0 0 15px 15px rgb(199 194 194 / 40%);
+}
+
+.arrow-right {
+  right: 125px;
+  background: #aa6aaa;
+  color: #fff;
+  box-shadow: 0 0 15px 15px rgb(199 194 194 / 40%);
+}
+
+.arrow-btn:hover {
+  opacity: 0.8;
+}
+/*=============================*/
+/*====================footer==============*/
+/*====================================*/
+.footer{
+    color: #fff;
+    padding: 122px 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #18212D;
+    position: relative;
+}
+
+.footer p{
+    margin-bottom:25px;
+    font-size: 18px;
+    line-height: 124.5%;
+    font-family: "SangBleu Sunrise";
+    position:relative;
+}
+
+.footer p::after{
+        content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.footer a{
+       color: #d6d6d6;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    transition: 0.3s;
+    line-height: 24px;
+}
+
+.footer a:hover{
+    color:#7f2299;
+}
+
+.logo-text{
+        max-width: 195px;
+    min-height: 165px;
+}
+
+.newsletter-input{
+    position: relative;
+    display: flex;
+    /* gap: 8px; */
+    justify-content: space-between;
+}
+
+.newsletter-input input{
+    background: transparent;
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    padding: 8px 10px;
+    color: #fff;
+    width: 84%;
+}
+
+.newsletter-input button{
+    background:#b87adf;
+    border:none;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send{
+  width: 60%;
+}
+.social-icons{
+    margin-top:30px;
+}
+
+.social-icons a{
+       display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #EAE3EA;
+    color: #18212D;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer-bottom{
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid rgb(255 255 255 / 50%);
+    padding-top: 30px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom a:hover{
+  text-decoration: underline;
+}
+
+.cta-wrapper{
+    position: absolute;
+    width: 945px;
+    left: 15%;
+    top: -50px;
+}
+
+.cta-box{
+    background:#8f7a80;
+    color:#fff;
+    border-radius:5px;
+    padding:25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    z-index:2;
+}
+.cta-box::before{
+  content:url("img/Vector\ 3.png");
+  display: block; 
+  position: absolute; 
+  right: 185px;
+  top: 40px;
+}
+
+.cta-box h2{
+    font-size:50px;
+    font-family: "SangBleu Sunrise";
+    margin: 0 !important;
+}
+
+#cta-btn{
+    background:#ffffff;
+    color:#000;
+    padding:12px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    margin: 0;
+}
+/*============photoshop======================*/
+.banner_photoshop{
+  background: url(img/photoshop_banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  min-height: 432px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photoshop_content > h1{
+  font-family: "SangBleu Sunrise";
+    font-size: 54px;
+    line-height: 65px;
+}
+.photoshop_content > p{
+  font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.photoshop_content{
+  max-width: 817px;
+  margin: auto;
+    color: white;
+}
+/*photoshop cird*/
+.philosophy-section{
+    padding: 100px 0 165px;
+}
+
+/* Card */
+.philosophy-card{
+    background: #F0EDF1;
+    border-radius: 10px;
+    padding: 40px 15px;
+    text-align: center;
+    transition: 0.3s;
+    max-width: 360px;
+    height: 336px;
+    transition: 0.2s ease-in-out;
+}
+.philosophy-card:hover{
+  transform: translateY(-5px);
+}
+.philosophy-card h3{
+    font-family: "SangBleu Sunrise";
+font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #18212D;
+    line-height: 27px;
+}
+.photoshop_row{
+  justify-content: center;
+}
+.photoshop_img{
+  width: 56px;
+}
+.philosophy-card p{
+  font-family: "DM Sans", sans-serif;
+font-size:16px;
+color:#717175;
+line-height:24px;
+}
+
+/* Icon circle */
+.icon-circle{
+width: 108px;
+    height: 108px;
+    background: #AA6AAA;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:0 auto;
+color:#fff;
+font-size:30px;
+}
+
+/* Highlight card */
+.philosophy-card.active{
+background:#9b5f96;
+color:#fff;
+}
+
+.philosophy-card.active h3,
+.philosophy-card.active p{
+color:#fff;
+}
+
+.philosophy-card.active .icon-circle{
+background:#fff;
+color:#9b5f96;
+}
+
+/* Responsive spacing */
+.philosophy-row2{
+margin-top:30px;
+justify-content:center;
+}
+/*=============================*/
+/*===============asset classes===============*/
+/*===============================*/
+.asset_banner{
+  background: url(img/Asset\ Classes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  min-height: 432px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-section{
+padding: 100px 0 150px;
+}
+
+.service-card{
+background: #F0EDF1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s;
+    max-width: 360px;
+    height: 464px;
+}
+
+.service-card img{
+    height: 290px;
+    object-fit: cover;
+    max-width: 360px;
+}
+
+.service-content{
+padding:25px;
+}
+
+.service-content h4{
+font-family: "SangBleu Sunrise";
+font-size:28px;
+margin-bottom:12px;
+line-height: 27px;
+color: #18212D;
+}
+
+.service-content p{
+font-size:16px;
+color:#717175;
+line-height:24px;
+}
+
+.service-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+
+
+/*========================================*/
+/*================rasponsive===================*/
+/*============================================*/
+@media (max-width: 768px){
+.cta-wrapper {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    left: 0;
+}
+.cta-box h2{
+  font-size: 20px;
+}
+#cta-btn{
+  padding: 8px 20px;
+}
+.testimonial-images img{
+  width: 50px;
+    height: 50px;
+}
+.testimonial-images{
+  gap: 5px;
+}
+.testimonial-images img.active{
+      width: 75px;
+    height: 75px;
+}
+.arrow-btn{
+      top: 45%;
+    width: 40px;
+    height: 40px;
+}
+.arrow-left{
+  left: 10px;
+    box-shadow: 0 0 15px 15px rgb(199 194 194 / 14%);
+}
+.arrow-right{
+    right: 10px;
+    box-shadow: 0 0 15px 15px rgb(199 194 194 / 14%);
+}
+.navbar-toggler{
+  z-index: 9;
+    right: -97%;
+    position: relative;
+}
+#navbarNav{
+  position: relative;
+    background: rgb(170, 106, 170);
+    align-items: center;
+    justify-content: center !important;
+    z-index: 9;
+}
+}
+
+@media (max-width: 991px){
+
+  .navbar-toggler{
+  z-index: 9;
+    right: -97%;
+    position: relative;
+}
+#navbarNav{
+  position: relative;
+    background: rgb(170, 106, 170);
+    align-items: center;
+    justify-content: center !important;
+    z-index: 9;
+}
+.cta-wrapper {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    left: 0;
+}
+}
